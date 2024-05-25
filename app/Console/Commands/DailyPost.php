@@ -38,6 +38,6 @@ class DailyPost extends Command
      */
     public function handle()
     {
-        Post::factory(1)->create();
+        return Post::factory(1)->create();
     }
 }
